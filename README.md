@@ -2,7 +2,7 @@
 <div>
   <p>
     <h1>
-        <a href="https://tinamiru.github.io/FirstStepWithWeb/Work/linkedByINDEX.html">
+        <a href="https://tinamiru.github.io/FirstStepWithWeb/Work/HTML5/linkedByINDEX.html">
         Welcome
         </a>
     </h1>
