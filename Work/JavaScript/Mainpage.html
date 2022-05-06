@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 <head>
     <style>
         .js {
@@ -16,26 +16,31 @@
         }
 
     </style>
-    <meta charset="UTF-8">
+    <meta charset = "UTF-8">
     <title>Welcome, This page is Study for JavasScript</title>
 </head>
 
-<body style="background-color:white;color:black;">
-<h1 style="font-style: italic;color:whitesmoke;background-color: cornflowerblue">Welcome, Visitor.</h1>
-<h2 style="color:#36bdb8;">자바스크립트에 대한 이해와 기능을 사용하는법을 배웁니다.</h2>
-<p style="text-decoration: underline;">Funtion's</p>
-<input type="button" value="hi" onclick="alert('hi')">
-<input type="text" onchange="alert('changed')">
-<input type="text" onkeydown="alert('key down!')">
+<body style = "background-color:white;color:black;">
+<h1 style = "font-style: italic;color:whitesmoke;background-color: cornflowerblue">Welcome, Visitor.</h1>
+<h2 style = "color:#36bdb8;">자바스크립트에 대한 이해와 기능을 사용하는법을 배웁니다.</h2>
+<p style = "text-decoration: underline;">Funtion's</p>
+<input type = "button" value = "hi" onclick = "alert('hi')">
+<input type = "text" onchange = "alert('changed')">
+<input type = "text" onkeydown = "alert('key down!')">
 
 <p>
+    <input id = "day_night" type = "button" value = "DarkMode" onclick = "
 
-    <input type="button" value="DarkMode" onclick="document.
-            querySelector('body').style.backgroundColor='black';
-            document.querySelector('body').style.color='white';">
-    <input type="button" value="LightMode" onclick="
-            document.querySelector('body').style.backgroundColor='white';
-            document.querySelector('body').style.color='black';">
+   if (document.querySelector('#day_night').value === 'DarkMode'){
+       document.querySelector('body').style.backgroundColor='black';
+       document.querySelector('body').style.color='white';
+       document.querySelector('#day_night').value = 'LightMode';
+       } else {
+       document.querySelector('body').style.backgroundColor='white';
+       document.querySelector('body').style.color='black';
+       document.querySelector('#day_night').value = 'DarkMode';
+       }
+">
 </p>
 
 <ol>
@@ -45,11 +50,13 @@
 
 </ol>
 <p>
-    <span style="font-style: italic;font-weight: bold;color: crimson;font-size: xx-large">JavaScript란?</span>
-    <span class="js">JavaScript는</span> 웹 페이지에서 <span>복잡한</span> 기능을 구현할 수 있도록 하는 스크립팅 언어 또는 프로그래밍 언어입니다.<br>
-    페이지의 내용이 — 가만히 정적인 정보만 보여주는 것이 아니라 — 주기적으로 갱신되거나, 사용자와 상호작용이 가능하거나,<br>
-    애니메이션이 적용된 2D/3D 그래픽을 볼 수 있다면 <span class="js">JavaScript가</span> 관여하고 있을 거라고 생각해도 좋습니다.<br>
-    <span id="first" class="js">JavaScript는</span> 표준 웹 기술이라는 케이크의 세 번째 층입니다. 다른 두 개(HTML과 CSS)는 학습장의 다른 곳에서 자세히 알아봤습니다.
+    <span style = "font-style: italic;font-weight: bold;color: crimson;font-size: xx-large">JavaScript란?</span>
+    <span class = "js">JavaScript는</span> 웹 페이지에서 <span>복잡한</span> 기능을 구현할 수 있도록 하는 스크립팅 언어 또는 프로그래밍 언어입니다.<br>
+                                          페이지의 내용이 — 가만히 정적인 정보만 보여주는 것이 아니라 — 주기적으로 갱신되거나, 사용자와 상호작용이 가능하거나,<br>
+                                          애니메이션이 적용된 2D/3D 그래픽을 볼 수 있다면 <span class = "js">JavaScript가</span> 관여하고 있을
+                                          거라고 생각해도 좋습니다.<br>
+    <span id = "first" class = "js">JavaScript는</span> 표준 웹 기술이라는 케이크의 세 번째 층입니다. 다른 두 개(HTML과 CSS)는 학습장의 다른 곳에서 자세히
+                                          알아봤습니다.
 </p>
 
 </body>
